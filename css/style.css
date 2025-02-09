@@ -112,6 +112,15 @@ div label{
     border-radius: 10px;
     cursor: pointer;
     padding: 2px;
+    transition: 0.5s;
+    width: 200px;
+}
+
+.btn:hover{
+    background-color: #a9cbeb;
+    font-size: 20px;
+    width: 200px;
+    border: none;
 }
 
 .required-field{

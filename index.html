@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazar online de livros</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="color-container">
+        <h2>Cadastre aqui seu antigo livro para vendê-lo rapidinho!</h2>
+    </div>
+    <div class="content-container">
+
+        <h1>Venda fácil seu livro usado!</h1>
+        <p>Descreva as características que ele possui</p>
+
+        <div class="forms">
+            <form action="#" method="get">
+                <div>
+                    <label for="title">Nome</label>
+                    <input type="text" name="title" placeholder="Digite o título do livro...">
+                </div>
+                
+                <div>
+                    <label for="price">Preço</label>
+                    <input type="text" name="price" placeholder="Defina por quanto o deseja ofertar...">
+                </div>
+                
+               <div>
+                    <label for="desc">Descrição</label>
+                    <textarea name="desc" placeholder="Descreva como está a situação atual, se há marcas de uso, etc."></textarea>
+               </div>
+
+                <div>
+                    <label for="publisher">Editora</label>
+                    <input type="text" name="publisher" placeholder="Digite qual é a editora...">
+                </div>
+                
+                <div>
+                    <label for="autor">Autor</label>
+                    <input type="text" name="autor" placeholder="Digite quem é o autor...">
+                </div>
+                
+                <div>
+                    <label for="launch">Data de lançamento</label>
+                    <input type="date" name="publisher" placeholder="Digite quando ele foi publicado">
+                </div>
+
+                <div class="deliver-box">
+                    <label for="deliver">Deseja utilizar o serviço de postagem dos <strong>Correios</strong> para a entrega?</label>
+                        <input type="radio" name="deliver" value="sim">
+                        <label for="sim">Sim</label>
+                        <input type="radio" name="deliver" value="nao">
+                        <label for="nao">Não</label>
+                </div>
+
+                <div class="pay-methods">
+                    <label for="payments">Selecione os tipos de pagamentos que você aceitaria receber:</label>
+                    <div class="radio">
+                        <input type="checkbox" name="payments[]" value="deposit">
+                        <label for="deposit">Depósito na conta</label>
+                        <input type="checkbox" name="payments[]" value="check_money">
+                        <label for="check_money">Cheque</label>
+                        <input type="checkbox" name="payments[]" value="pix">
+                        <label for="pix">Pix</label>
+                        <input type="checkbox" name="payments[]" value="money">
+                        <label for="money">Dinheiro físico</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="img">Anexe uma foto do produto:</label>
+                    <input type="file" name="img">
+                </div>
+            
+                <input type="submit" value="Cadastrar" class="btn">
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

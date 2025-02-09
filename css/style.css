@@ -113,3 +113,9 @@ div label{
     cursor: pointer;
     padding: 2px;
 }
+
+.required-field{
+    font-weight: 900;
+    color: #c34c4c;
+    margin-left: 5px;
+}
